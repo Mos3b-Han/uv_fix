@@ -1,0 +1,7 @@
+python3 -c "
+import random
+words = ['lorem','ipsum','dolor','sit','amet','consectetur','adipiscing','elit','sed','do','eiusmod','tempor','incididunt','ut','labore','et','dolore','magna','aliqua','enim','ad','minim','veniam']
+text = ' '.join(random.choice(words) for _ in range(4000))
+print(text)
+" > calculator/lorem.txt
+wc -c calculator/lorem.txt

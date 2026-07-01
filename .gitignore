@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Environment variables (NEVER commit these)
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[oc]
+*.pyo
+
+# Build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+
+# uv
+uv.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
